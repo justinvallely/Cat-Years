@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D01C02211B06973400B3FE44"
-               BuildableName = "Cat Years.app"
-               BlueprintName = "Cat Years"
-               ReferencedContainer = "container:Cat Years.xcodeproj">
+               BuildableName = "Cat Years Age.app"
+               BlueprintName = "Cat Years Age"
+               ReferencedContainer = "container:Cat Years Age.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D01C02361B06973500B3FE44"
-               BuildableName = "Cat YearsTests.xctest"
-               BlueprintName = "Cat YearsTests"
-               ReferencedContainer = "container:Cat Years.xcodeproj">
+               BuildableName = "Cat Years AgeTests.xctest"
+               BlueprintName = "Cat Years AgeTests"
+               ReferencedContainer = "container:Cat Years Age.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D01C02361B06973500B3FE44"
-               BuildableName = "Cat YearsTests.xctest"
-               BlueprintName = "Cat YearsTests"
-               ReferencedContainer = "container:Cat Years.xcodeproj">
+               BuildableName = "Cat Years AgeTests.xctest"
+               BlueprintName = "Cat Years AgeTests"
+               ReferencedContainer = "container:Cat Years Age.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D01C02211B06973400B3FE44"
-            BuildableName = "Cat Years.app"
-            BlueprintName = "Cat Years"
-            ReferencedContainer = "container:Cat Years.xcodeproj">
+            BuildableName = "Cat Years Age.app"
+            BlueprintName = "Cat Years Age"
+            ReferencedContainer = "container:Cat Years Age.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D01C02211B06973400B3FE44"
-            BuildableName = "Cat Years.app"
-            BlueprintName = "Cat Years"
-            ReferencedContainer = "container:Cat Years.xcodeproj">
+            BuildableName = "Cat Years Age.app"
+            BlueprintName = "Cat Years Age"
+            ReferencedContainer = "container:Cat Years Age.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D01C02211B06973400B3FE44"
-            BuildableName = "Cat Years.app"
-            BlueprintName = "Cat Years"
-            ReferencedContainer = "container:Cat Years.xcodeproj">
+            BuildableName = "Cat Years Age.app"
+            BlueprintName = "Cat Years Age"
+            ReferencedContainer = "container:Cat Years Age.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

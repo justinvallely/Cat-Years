@@ -34,7 +34,7 @@
 		D01C022C1B06973400B3FE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D01C022E1B06973400B3FE44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D01C02311B06973400B3FE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D01C02371B06973500B3FE44 /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01C02371B06973500B3FE44 /* Cat Years AgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat Years AgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01C023C1B06973500B3FE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D01C023D1B06973500B3FE44 /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
 		D01C02471B06989D00B3FE44 /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpg; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				D01C02221B06973400B3FE44 /* Cat Years.app */,
-				D01C02371B06973500B3FE44 /* Cat YearsTests.xctest */,
+				D01C02371B06973500B3FE44 /* Cat Years AgeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D01C02211B06973400B3FE44 /* Cat Years */ = {
+		D01C02211B06973400B3FE44 /* Cat Years Age */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D01C02411B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat Years" */;
+			buildConfigurationList = D01C02411B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat Years Age" */;
 			buildPhases = (
 				D01C021E1B06973400B3FE44 /* Sources */,
 				D01C021F1B06973400B3FE44 /* Frameworks */,
@@ -130,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = "Cat Years";
+			name = "Cat Years Age";
 			productName = "Cat Years";
 			productReference = D01C02221B06973400B3FE44 /* Cat Years.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D01C02361B06973500B3FE44 /* Cat YearsTests */ = {
+		D01C02361B06973500B3FE44 /* Cat Years AgeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D01C02441B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat YearsTests" */;
+			buildConfigurationList = D01C02441B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat Years AgeTests" */;
 			buildPhases = (
 				D01C02331B06973500B3FE44 /* Sources */,
 				D01C02341B06973500B3FE44 /* Frameworks */,
@@ -148,9 +148,9 @@
 			dependencies = (
 				D01C02391B06973500B3FE44 /* PBXTargetDependency */,
 			);
-			name = "Cat YearsTests";
+			name = "Cat Years AgeTests";
 			productName = "Cat YearsTests";
-			productReference = D01C02371B06973500B3FE44 /* Cat YearsTests.xctest */;
+			productReference = D01C02371B06973500B3FE44 /* Cat Years AgeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D01C021D1B06973400B3FE44 /* Build configuration list for PBXProject "Cat Years" */;
+			buildConfigurationList = D01C021D1B06973400B3FE44 /* Build configuration list for PBXProject "Cat Years Age" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D01C02211B06973400B3FE44 /* Cat Years */,
-				D01C02361B06973500B3FE44 /* Cat YearsTests */,
+				D01C02211B06973400B3FE44 /* Cat Years Age */,
+				D01C02361B06973500B3FE44 /* Cat Years AgeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +234,7 @@
 /* Begin PBXTargetDependency section */
 		D01C02391B06973500B3FE44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D01C02211B06973400B3FE44 /* Cat Years */;
+			target = D01C02211B06973400B3FE44 /* Cat Years Age */;
 			targetProxy = D01C02381B06973500B3FE44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Cat Years/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Cat Years/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,7 +365,6 @@
 		D01C02451B06973500B3FE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -374,7 +375,7 @@
 				);
 				INFOPLIST_FILE = "Cat YearsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Cat Years AgeTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Years.app/Cat Years";
 			};
 			name = Debug;
@@ -382,14 +383,13 @@
 		D01C02461B06973500B3FE44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Cat YearsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Cat Years AgeTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Years.app/Cat Years";
 			};
 			name = Release;
@@ -397,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D01C021D1B06973400B3FE44 /* Build configuration list for PBXProject "Cat Years" */ = {
+		D01C021D1B06973400B3FE44 /* Build configuration list for PBXProject "Cat Years Age" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D01C023F1B06973500B3FE44 /* Debug */,
@@ -406,21 +406,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D01C02411B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat Years" */ = {
+		D01C02411B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat Years Age" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D01C02421B06973500B3FE44 /* Debug */,
 				D01C02431B06973500B3FE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D01C02441B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat YearsTests" */ = {
+		D01C02441B06973500B3FE44 /* Build configuration list for PBXNativeTarget "Cat Years AgeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D01C02451B06973500B3FE44 /* Debug */,
 				D01C02461B06973500B3FE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
